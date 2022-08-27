@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<project name="Auth" default="dist" basedir=".">
+	<description>pointblank-auth</description>
+	<property name="bin" location="bin"/>
+	<property name="root" location="pointblank-auth"/>
+	<property name="src" location="${root}"/>
+	<property name="package" location="package/jar"/>
+	<property name="svnpackage" location="package/dll"/>
+	<property name="build" location="${bin}/compiled"/>
+	<property name="build.classes" location="${build}/auth"/>
+	<property name="jar_class" value="auth.Program"/>
+
+	<path id="classpath">
+		<fileset dir="${package}">
+			<include name="*.jar"/>
+			<exclude name="pointblank-auth.jar"/>
+		</fileset>
+	</path>
+
+	<target name="clean" description="Removendo arquivos de path antigos.">
+		<delete file="${package}/pointblank-auth.jar"/>
+	</target>
+
+	<target name="dirs" depends="clean" description="Criando diretorios.">
+		<mkdir dir="${build}"/>
+		<mkdir dir="${build.classes}"/>
+	</target>
+
+	<target name="compile" depends="dirs" description="Compilando source.">
+		<javac includeantruntime="false" destdir="${build.classes}" optimize="on" debug="on" source="1.8" target="1.8" encoding="Windows-1251" nowarn="off">
+			<compilerarg value="-Xlint:all"></compilerarg>
+			<src path="${src}"/>
+			<classpath refid="classpath"/>
+		</javac>
+
+		<tstamp>
+			<format property="build.tstamp" pattern="yyyy.MM.dd HH:mm"/>
+		</tstamp>
+		
+		<exec dir="${svnpackage}" executable="${svnpackage}/svnversion" outputproperty="auth.revision" failifexecutionfails="true">
+			<arg line="-n ${src}"/>
+		</exec>
+
+		<echo message="Revisao: ${auth.revision}"/>
+
+		<concat destfile="${build}/classes/auth/build-info.ini">version=${auth.revision}builddate=${build.tstamp}: ${user.name}/${os.name}</concat>
+		
+		<jar destfile="${build}/pointblank-auth.jar" description="Formatando source para .JAR">
+			<fileset dir="${build.classes}"/>
+			<manifest>
+				<attribute name="Main-Class" value="${jar_class}"/>
+				<attribute name="Implementation-Revision" value="${auth.revision}"/>
+			</manifest>
+		</jar>
+	</target>
+	
+	<target name="dist" depends="compile" description="Formatando diretorio.">
+		<copy todir="${package}">
+			<fileset dir="${build}">
+				<include name="pointblank-auth.jar"/>
+			</fileset>
+		</copy>
+			<delete dir="${build}"/>
+	</target>
+</project>

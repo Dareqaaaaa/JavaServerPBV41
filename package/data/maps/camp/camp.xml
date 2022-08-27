@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list room="@camp%@Camp%@CAMP">
+	;Weapons
+	<camp id="100003316" type="0" name="Pindad SS2 V5 Ice"/>
+	<camp id="400006102" type="0" name="M1187 Green"/>
+	<camp id="400006099" type="0" name="M1887 Beach"/>
+	<camp id="100003313" type="0" name="Cane Gun"/>
+	<camp id="100003315" type="0" name="AUG A3 Ice"/>
+	<camp id="100003324" type="0" name="AUG A3 GRS4"/>
+	<camp id="400006108" type="0" name="Zombie Slayer Infinitum"/>
+	<camp id="100003326" type="0" name="FAMAS G2 Fire"/>
+	<camp id="400006087" type="0" name="Cane Shotgun"/>
+	<camp id="100003300" type="0" name="AUG A3 Halloween 2016"/>
+	<camp id="400006084" type="0" name="Cerberus Gorgeous"/>
+	<camp id="702001103" type="0" name="Bambu Runcing"/>
+	<camp id="400006092" type="0" name="SPAS-15 Fire"/>
+	<camp id="400006090" type="0" name="M1887 GRS4"/>
+	<camp id="702001098" type="0" name="Hair Dryer"/>
+	<camp id="702001097" type="0" name="Hair Dryer Indonesia"/>
+	<camp id="400006088" type="0" name="Zombie Slayer Ice"/>
+	<camp id="702001143" type="0" name="Amok Kukri Poison"/>
+	<camp id="702001139" type="0" name="Amok Kukri Mummy"/>
+	<camp id="702001137" type="0" name="Amok Kukri PBWC 2016"/>
+	<camp id="100003282" type="0" name="FAMAS G2 Newborn2016"/>
+	<camp id="100003294" type="0" name="AUG A3 PBTC2016"/>
+	<camp id="702001146" type="0" name="Death Scythe Demonic"/>
+	<camp id="400006118" type="0" name="Cerberus Prasasti"/>
+	<camp id="400006114" type="0" name="UTS-15 Newborn 2017"/>
+	<camp id="100003264" type="0" name="FAMAS G2 M203 E-Sports 2"/>
+	<camp id="100003276" type="0" name="SC-2010 Dolphin"/>
+	<camp id="100003275" type="0" name="AUG A3 Dolphin"/>
+	<camp id="100003274" type="0" name="AUG A3 Demonic"/>
+	<camp id="400006039" type="0" name="UTS-15"/>
+	<camp id="100003254" type="0" name="Water Gun 2016"/>
+	<camp id="702001041" type="0" name="Arabian Sword"/>
+	<camp id="400006047" type="0" name="Cerberus"/>
+	<camp id="400006046" type="0" name="UTS-15 D."/>
+	<camp id="400006042" type="0" name="Zombie Slayer"/>
+	<camp id="702001049" type="0" name="Arabian Sword2"/>
+	<camp id="100003239" type="0" name="M14 EBR Gold"/>
+	<camp id="400006019" type="0" name="JackHammer"/>
+	<camp id="100003247" type="0" name="AK 12 Gold"/>
+	<camp id="100003246" type="0" name="AK 12"/>
+	<camp id="100003241" type="0" name="AUG A3 X-MAS 2015"/>
+	<camp id="100003242" type="0" name="SC-2010 X-MAS 2015"/>
+	<camp id="904007043" type="0" name="Medical Kit Kurma"/>
+	<camp id="100003223" type="0" name="M14 EBR"/>
+	<camp id="702001073" type="0" name="Chinese Cleaver CNY 2015"/>
+	<camp id="100003218" type="0" name="SCAR-L F.C PBNC2015US"/>
+	<camp id="400006079" type="0" name="M1887 PBTC2016"/>
+	<camp id="904007051" type="0" name="Medical Kit PBNC 2015"/>
+	<camp id="702001083" type="0" name="Nunchaku"/>
+	<camp id="702001082" type="0" name="Arabian Sword Midnight"/>
+	<camp id="400006072" type="0" name="M1887 Dolphin"/>
+	<camp id="702001080" type="0" name="Field Shovel Royal"/>
+	<camp id="904007059" type="0" name="Pink Smoke"/>
+	<camp id="702001058" type="0" name="Chinese Cleaver"/>
+	<camp id="904007060" type="0" name="Blue Smoke"/>
+	<camp id="400006048" type="0" name="UTS-15 G."/>
+	<camp id="904007061" type="0" name="Yellow Smoke"/>
+	<camp id="702001069" type="0" name="Ice Trident"/>
+	<camp id="100003209" type="0" name="Vz.52 Black Pearl"/>
+	<camp id="300005217" type="0" name="AS-50 Midnight3"/>
+	<camp id="300005216" type="0" name="Tactilite T2 Green"/>
+	<camp id="904007014" type="0" name="Halloween Medical Kit"/>
+	<camp id="904007015" type="0" name="Chocolate Medical Kit"/>
+	<camp id="904007021" type="0" name="Medical Kit Lotus"/>
+	<camp id="300005233" type="0" name="Cheytac M200 Vacance2017"/>
+	<camp id="300005232" type="0" name="Barret M82A1 Premium"/>
+	<camp id="904007025" type="0" name="Medical Kit Opor Ayam"/>
+	<camp id="300005234" type="0" name="Tactilite T2 Vacance2017"/>
+	<camp id="200004467" type="0" name="P90 Ext. Brightness"/>
+	<camp id="904007032" type="0" name="Medical Kit Lotus2014"/>
+	<camp id="200004465" type="0" name="Kriss S.V Brightness"/>
+	<camp id="300005243" type="0" name="Cheytac M200 Brightness"/>
+	<camp id="200004470" type="0" name="P90 Ext. Darkness"/>
+	<camp id="300005244" type="0" name="Cheytac M200 Darkness"/>
+	<camp id="100003178" type="0" name="AUG A3 CoupleBreaker"/>
+	<camp id="200004468" type="0" name="Kriss S.V Darkness"/>
+	<camp id="300005184" type="0" name="AS-50 PBTC2016"/>
+	<camp id="300005189" type="0" name="Cheytac M200 Halloween 2016"/>
+	<camp id="702001011" type="0" name="Amok Kukri D"/>
+	<camp id="300005194" type="0" name="Cheytac M200 Ice"/>
+	<camp id="300005199" type="0" name="Cheytac M200 GRS4"/>
+	<camp id="200004443" type="0" name="OA-93 Vacance2017"/>
+	<camp id="300005200" type="0" name="AS-50 GRS4"/>
+	<camp id="100003143" type="0" name="FG-42"/>
+	<camp id="200004441" type="0" name="Kriss S.V Vacance2017"/>
+	<camp id="300005210" type="0" name="Tactilite Samurai"/>
+	<camp id="702001004" type="0" name="Amok Kukri"/>
+	<camp id="300005213" type="0" name="PGM Hecate2 Beach"/>
+	<camp id="904007007" type="0" name="WP Smoke D"/>
+	<camp id="100003146" type="0" name="G36 Elite"/>
+	<camp id="904007005" type="0" name="WP Smoke"/>
+	<camp id="100003125" type="0" name="AK-47 F.C"/>
+	<camp id="601013008" type="0" name="Cutlass C. Python"/>
+	<camp id="100003122" type="0" name="AK-47 PBIC2013"/>
+	<camp id="200004385" type="0" name="Kriss S.V Samurai"/>
+	<camp id="200004391" type="0" name="Kriss S.V Beach"/>
+	<camp id="300005167" type="0" name="Cheytac M200 Demonic"/>
+	<camp id="601014018" type="0" name="Scorpion Vz.61 G."/>
+	<camp id="300005169" type="0" name="L115A1 Dolphin"/>
+	<camp id="300005168" type="0" name="Cheytac M200 Dolphin"/>
+	<camp id="601014017" type="0" name="Scorpion Vz.61"/>
+	<camp id="601014022" type="0" name="Scorpion Vz.61 Newborn 2017"/>
+	<camp id="100003105" type="0" name="FAMAS G2 Commando GSL"/>
+	<camp id="601014023" type="0" name="Scorpion Prasasti"/>
+	<camp id="601014020" type="0" name="Scorpion Vz.61 Woody"/>
+	<camp id="601014021" type="0" name="Scorpion Vz.61 Gorgeous"/>
+	<camp id="200004403" type="0" name="Kriss S.V Midnight3"/>
+	<camp id="200004402" type="0" name="P90 Ext. Green"/>
+	<camp id="100003119" type="0" name="AK-47 Elite"/>
+	<camp id="200004400" type="0" name="Kriss S.V Green"/>
+	<camp id="100003113" type="0" name="FAMAS G2 GRS EV"/>
+	<camp id="200004405" type="0" name="OA-93 Midnight3"/>
+	<camp id="300005183" type="0" name="Cheytac M200 PBTC2016"/>
+	<camp id="100003114" type="0" name="M4A1 Elite"/>
+	<camp id="200004362" type="0" name="OA-93 Mech Hero"/>
+	<camp id="100003092" type="0" name="AK SOPMOD R"/>
+	<camp id="200004361" type="0" name="P90 Ext. GRS4"/>
+	<camp id="100003091" type="0" name="FAMAS G2 Commando PBTN"/>
+	<camp id="100003090" type="0" name="FAMAS G2 White Digital"/>
+	<camp id="100003101" type="0" name="AK SOPMOD PBNC"/>
+	<camp id="100003100" type="0" name="FAMAS G2 GRS"/>
+	<camp id="100003103" type="0" name="M4 SR-16 FC"/>
+	<camp id="200004359" type="0" name="OA-93 GRS4"/>
+	<camp id="100003096" type="0" name="SCAR-L FC"/>
+	<camp id="200004357" type="0" name="Kriss S.V GRS4"/>
+	<camp id="100003099" type="0" name="AK SOPMOD GRS"/>
+	<camp id="300005139" type="0" name="Tactilite T2 X-MAS 2015"/>
+	<camp id="300005138" type="0" name="CheyTac M200 X-MAS 2015"/>
+	<camp id="100003087" type="0" name="FAMAS G2 Silver"/>
+	<camp id="100003086" type="0" name="AK-47 Goddess"/>
+	<camp id="200004328" type="0" name="OA-93 Halloween 2016"/>
+	<camp id="100003062" type="0" name="FAMAS G2 Commando E-Sports"/>
+	<camp id="100003057" type="0" name="Vz. 52"/>
+	<camp id="100003059" type="0" name="AK-47 Non Ext"/>
+	<camp id="100003058" type="0" name="AK-47 Full Custom"/>
+	<camp id="100003068" type="0" name="AK-47 FC Red"/>
+	<camp id="300005099" type="0" name="CheyTac M200 CoupleBreaker"/>
+	<camp id="100003064" type="0" name="FAMAS G2 Commando Gold"/>
+	<camp id="100003041" type="0" name="AK SOPMOD CG"/>
+	<camp id="100003052" type="0" name="FAMAS G2 Sniper"/>
+	<camp id="100003054" type="0" name="AK-47 G. D"/>
+	<camp id="100003049" type="0" name="FAMAS G2"/>
+	<camp id="100003051" type="0" name="FAMAS G2 M203"/>
+	<camp id="100003050" type="0" name="FAMAS G2 Com"/>
+	<camp id="100003025" type="0" name="AK-47 Silver +"/>
+	<camp id="200004291" type="0" name="P90 Ext. Dolphin"/>
+	<camp id="200004289" type="0" name="Kriss S.V Dolphin"/>
+	<camp id="100003039" type="0" name="AK SOPMOD D"/>
+	<camp id="200004288" type="0" name="P90 Ext. Demonic"/>
+	<camp id="300005075" type="0" name="PSG1 Elite"/>
+	<camp id="100003015" type="0" name="AK SOPMOD"/>
+	<camp id="300005076" type="0" name="Dragunov Elite"/>
+	<camp id="200004316" type="0" name="Kriss S.V PBTC2016"/>
+	<camp id="300005082" type="0" name="Barret M82A1 P."/>
+	<camp id="100003017" type="0" name="AK-47 Silver"/>
+	<camp id="601002128" type="0" name="R.B 454 SS8M+S Brightness"/>
+	<camp id="601002129" type="0" name="R.B 454 SS8M+S Darkness"/>
+	<camp id="300005032" type="0" name="Barret M82A1"/>
+	<camp id="100003002" type="0" name="AK-47 Ext."/>
+	<camp id="601002114" type="0" name="TEC-9 Gold"/>
+	<camp id="601002115" type="0" name="Glock 18 Samurai"/>
+	<camp id="601002112" type="0" name="TEC-9"/>
+	<camp id="601002113" type="0" name="TEC-9 Silver"/>
+	<camp id="200004286" type="0" name="Kriss S.V Demonic"/>
+	<camp id="601002123" type="0" name="C.Python Vacance2017"/>
+	<camp id="200004251" type="0" name="OA-93 X-MAS 2015"/>
+	<camp id="200004249" type="0" name="Kriss S.V X-MAS 2015"/>
+	<camp id="803007066" type="0" name="FootBall Bomb2016"/>
+	<camp id="601002069" type="0" name="Kriss Vector SDP DarkDays"/>
+	<camp id="601002074" type="0" name="Kriss Vector SDP Camo Soldier"/>
+	<camp id="803007053" type="0" name="Water Bomb"/>
+	<camp id="601002054" type="0" name="GL-06 ANC 2015"/>
+	<camp id="803007040" type="0" name="M18A1 Claymore"/>
+	<camp id="200004170" type="0" name="Kriss S.V CoupleBreaker"/>
+	<camp id="601002106" type="0" name="C. Python Ice"/>
+	<camp id="601002110" type="0" name="Kriss Vector SDP Mech Hero"/>
+	<camp id="601002111" type="0" name="Kriss Vector SDP Fire"/>
+	<camp id="200018008" type="0" name="Dual Mini Uzi Silencer"/>
+	<camp id="200018009" type="0" name="Dual Micro Uzi Silencer"/>
+	<camp id="200018011" type="0" name="Dual Micro Uzi Silencer Silver"/>
+	<camp id="200018004" type="0" name="Dual Uzi"/>
+	<camp id="200018005" type="0" name="Dual Mini Uzi"/>
+	<camp id="200018007" type="0" name="Dual Uzi Silencer"/>
+	<camp id="803007072" type="0" name="K-400 Fire"/>
+	<camp id="601002093" type="0" name="Kriss Vector SDP Puzzle"/>
+	<camp id="702001173" type="0" name="Ice Terrent Fire"/>
+	<camp id="100003379" type="0" name="AUG A3 Darkness"/>
+	<camp id="100003378" type="0" name="AUG A3 Brightness"/>
+	<camp id="702001168" type="0" name="Chicken Hummer"/>
+	<camp id="702001182" type="0" name="Fang Blade Green"/>
+	<camp id="702001180" type="0" name="Arabian Sword Beach"/>
+	<camp id="500010013" type="0" name="Ultimax-100 Madness"/>
+	<camp id="500010012" type="0" name="Ultimax-100 Gold"/>
+	<camp id="702001158" type="0" name="Dual Sword PBTC2016"/>
+	<camp id="500010015" type="0" name="L86 LSW Beach"/>
+	<camp id="100003367" type="0" name="AUG A3 Vacance2017"/>
+	<camp id="500010014" type="0" name="Ultimax-100 Mummy"/>
+	<camp id="500010009" type="0" name="L86 LSW XMAS"/>
+	<camp id="500010011" type="0" name="Ultimax-100"/>
+	<camp id="500010010" type="0" name="MK.46 Non Ext"/>
+	<camp id="702001167" type="0" name="Fang Blade Ice"/>
+	<camp id="500010004" type="0" name="L86 LSW"/>
+	<camp id="500010007" type="0" name="RPD SI"/>
+	<camp id="500010001" type="0" name="Mk 46 Ext."/>
+	<camp id="702001162" type="0" name="Halloween Hammer"/>
+	<camp id="500010003" type="0" name="RPD"/>
+	<camp id="702001160" type="0" name="Arabian Sword PBNC 2016"/>
+	<camp id="500010002" type="0" name="Mk 46 Silver"/>
+	<camp id="100003349" type="0" name="AUG A3 Midnight3"/>
+	<camp id="100003348" type="0" name="SC-2010 Green"/>
+	<camp id="100003351" type="0" name="FAMAS G2 Commando PBWC 2017"/>
+	<camp id="803007033" type="0" name="Soccer Grenade"/>
+	<camp id="100003347" type="0" name="AUG A3 Green"/>
+	<camp id="702001200" type="0" name="Kukri Newborn 2017"/>
+	<camp id="100003346" type="0" name="AK-47 Ext Comic"/>
+	<camp id="702015015" type="0" name="Dual Sword PBTC2016"/>
+	<camp id="100003332" type="0" name="FAMAS G2 Comando Talos"/>
+	<camp id="100003343" type="0" name="AUG A3 Beach"/>
+	<camp id="601002024" type="0" name="Kriss Vector SDP"/>
+	<camp id="702001196" type="0" name="Arabian Sword Phantom"/>
+	<camp id="100003342" type="0" name="AK-47 Ext Chicano"/>
+	<camp id="702015018" type="0" name="Dual Sword Samurai"/>
+	<camp id="100003336" type="0" name="AUG A3 Samurai"/>
+	<camp id="601002029" type="0" name="GL-06"/>
+	<camp id="702015016" type="0" name="Dual Bone Knife GRS4"/>
+
+	;Chara
+	<camp id="1001002144" type="0" name="Chou FBI"/>
+	<camp id="1001002175" type="0" name="Undercover Hide"/>
+	<camp id="1001001137" type="0" name="Hitman D-Fox"/>
+	<camp id="1001002225" type="0" name="Hitman Leopard"/>
+	<camp id="1001001017" type="0" name="Reinforced Combo Viper Red (+30% Point)"/>
+	<camp id="1001001302" type="0" name="P1000 Tarantula"/>
+	<camp id="1001002018" type="0" name="Reinforced Combo Hide (+30% Point)"/>
+	<camp id="1001002019" type="0" name="Reinforced Acid Poll"/>
+	<camp id="1001002016" type="0" name="Reinforced Combo Leopard (+20% EXP"/>
+	<camp id="1001002020" type="0" name="Reinforced Keen Eyes"/>
+	<camp id="1001001022" type="0" name="Reinforced Tarantula"/>
+	<camp id="1001001021" type="0" name="Reinforced Red Bulls"/>
+	<camp id="1001001011" type="0" name="Reinforced D-Fox"/>
+	<camp id="1001002035" type="0" name="Reinforced Chou"/>
+	<camp id="1001001015" type="0" name="Reinforced Combo D-Fox (+20% EXP)"/>
+	<camp id="1001001013" type="0" name="Reinforced Viper Red"/>
+	<camp id="1001002014" type="0" name="Reinforced Hide"/>
+	<camp id="1001002012" type="0" name="Reinforced Leopard"/>
+	<camp id="1001001068" type="0" name="Viper Kopassus"/>
+	<camp id="1001001069" type="0" name="Bela Rica"/>
+	<camp id="1001001036" type="0" name="Reinforced Rica"/>
+	<camp id="1001001087" type="0" name="Gengster Viper Red"/>
+	<camp id="1001002056" type="0" name="Hide Recon"/>
+	<camp id="1001002051" type="0" name="Hide Kopassus"/>
+	<camp id="1001002052" type="0" name="Leopard Bope"/>
+	<camp id="1001002053" type="0" name="Hide Cup"/>
+	<camp id="1001001054" type="0" name="World Tarantula"/>
+	<camp id="1001001055" type="0" name="Viper Shadow"/>
+	<camp id="1001002067" type="0" name="Hide Elite"/>
+	<camp id="1001001295" type="0" name="Revolunitionst Viper Red"/>
+	<camp id="1001001283" type="0" name="Tarantula Pirate"/>
+	<camp id="1001002311" type="0" name="Infiltration Chou"/>
+	<camp id="1001001356" type="0" name="Holydai Viper Red"/>
+	<camp id="1103003026" type="0" name="Beret Green"/>
+	<camp id="1103003024" type="0" name="Fire Beret"/>
+	<camp id="1001002282" type="0" name="Swat sniper"/>
+	<camp id="1001002287" type="0" name="Hide Admiral"/>
+	<camp id="1001002278" type="0" name="Pilot Chou"/>
+	<camp id="1001001275" type="0" name="Pilot Rica"/>
+	<camp id="1001002294" type="0" name="Hide Gign"/>
+	<camp id="1001001268" type="0" name="Poather Tarantula"/>
+	<camp id="1001002270" type="0" name="SAS Kin Yeis"/>
+	<camp id="1001001320" type="0" name="Infiltration Rica"/>
+	<camp id="1001002353" type="0" name="Quast Guard Hide"/>
+	<camp id="1001002305" type="0" name="P1000 Keen Eyes"/>
+	<camp id="1001001286" type="0" name="Captain Viper Red"/>
+	
+	;Cupons
+	<camp id="1200028000" type="1" name="Life extra 10%"/>
+	<camp id="1200079000" type="1" name="Bulletproof Vest 20%"/>
+	<camp id="1200065000" type="1" name="Bulletproof Vest 90%"/>
+</list>

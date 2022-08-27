@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<project name="Core" default="dist" basedir=".">
+	<description>pointblank-core</description>
+	<property name="bin" location="bin"/>
+	<property name="root" location="pointblank-core"/>
+	<property name="src" location="${root}"/>
+	<property name="package" location="package/jar"/>
+	<property name="svnpackage" location="package/dll"/>
+	<property name="build" location="${bin}/compiled"/>
+	<property name="build.classes" location="${build}/core"/>
+
+	<path id="classpath">
+		<fileset dir="${package}">
+			<include name="*.jar"/>
+			<exclude name="pointblank-core.jar"/>
+		</fileset>
+	</path>
+
+	<target name="clean" description="Removendo arquivos de path antigos.">
+		<delete file="${package}/pointblank-core.jar"/>
+	</target>
+
+	<target name="dirs" depends="clean" description="Criando diretorios.">
+		<mkdir dir="${build}"/>
+		<mkdir dir="${build.classes}"/>
+	</target>
+
+	<target name="compile" depends="dirs" description="Compilando source.">
+		<javac includeantruntime="false" destdir="${build.classes}" optimize="on" debug="on" source="1.8" target="1.8" encoding="Windows-1251" nowarn="off">
+			<compilerarg value="-Xlint:all"></compilerarg>
+			<src path="${src}"/>
+			<classpath refid="classpath"/>
+		</javac>
+
+		<tstamp>
+			<format property="build.tstamp" pattern="yyyy.MM.dd HH:mm"/>
+		</tstamp>
+
+		<exec dir="${svnpackage}" executable="${svnpackage}/svnversion" outputproperty="core.revision" failifexecutionfails="true">
+			<arg line="-n ${src}"/>
+		</exec>
+
+		<echo message="Revisao: ${core.revision}"/>
+
+		<concat destfile="${build}/classes/core/build-info.ini">version=${core.revision}builddate=${build.tstamp}: ${user.name}/${os.name}</concat>
+
+		<jar destfile="${build}/pointblank-core.jar" description="Formatando source para .JAR" level="9">
+			<fileset dir="${build.classes}"/>
+			<manifest>
+				<attribute name="Implementation-Revision" value="${core.revision}"/>
+			</manifest>
+		</jar>		
+	</target>
+
+	<target name="dist" depends="compile" description="Formatando diretorio.">
+		<copy todir="${package}">
+			<fileset dir="${build}">
+				<include name="pointblank-core.jar"/>
+			</fileset>
+		</copy>
+			<delete dir="${build}"/>
+	</target>
+</project>

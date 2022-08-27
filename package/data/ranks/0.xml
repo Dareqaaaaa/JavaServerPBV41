@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list onNextLevel="2000" onGPUp="0" onCPUP="0" onAllExp="0">
+	<rank itemid="100003099" item_name="AK SOPMOD GRS 1D"     count="86400" equip="1"/>
+	<rank itemid="300005012" item_name="Dragunov CG. 1D"      count="86400" equip="1"/>
+	<rank itemid="400006038" item_name="M1887 PBIC2014 1D"    count="86400" equip="1"/>
+	<rank itemid="601014011" item_name="Dual D-Eagle GRS 1D"  count="86400" equip="1"/>
+	<rank itemid="702001021" item_name="Keris 1D"             count="86400" equip="1"/>
+</list>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list map="TD_PORTAKABA">
+	<int index="1" local="Base VERMELHA"/>
+	<int index="2" local="Pátio VERMELHO"/>
+	<int index="3" local="Ponto Central"/>
+	<int index="4" local="Pátio AZUL"/>
+	<int index="5" local="Base AZUL"/>
+	<int index="6" local="Corredor leste VERMELHO"/>
+	<int index="7" local="Corredor oeste AZUL"/>
+</list>

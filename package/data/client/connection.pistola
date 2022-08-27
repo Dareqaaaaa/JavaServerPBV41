@@ -1,0 +1,9 @@
+﻿ï»¿# ConexÃ£o
+connection = 0
+limit_online = -1
+mask_ip = false
+userfilelist = -4b51c59b9da62c97307dbd2cbc7dd5f4Ñ�
+launcher_key = -1
+bad_string = ! @#$%Â¨&*()+/?Â°`{}^:><;ÂºÂª.,"|'Â¹Â²Â³Â£Â¢Â¬Ã‚ÂºÂ´~-â™ªâ™¥[]}Â¨+Â§:â˜º
+has_string = ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
+udp_server = SERVER_UDP_STATE_CLIENT

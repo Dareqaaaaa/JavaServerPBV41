@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list rank="0" gold="80000" cash="30000" pc_cafe="0" pc_cafe_day="0" access_level="0" brooch="0" insignia="0" medal="0" blue_order="0" last_up="1010000" tourney_level="0" mission1="1" mission2="0" mission3="0" mission4="0" active="0" country="BRASIL">
+	<initial id="100003004"  name="K-2"                    equip="3" count="1" starter="true"/>
+	<initial id="200004006"  name="K-1"                    equip="3" count="1" starter="true"/>
+	<initial id="300005003"  name="SG669"                  equip="3" count="1" starter="true"/>
+	<initial id="400006001"  name="870MCS"                 equip="3" count="1" starter="true"/>
+	<initial id="601002003"  name="K-5"                    equip="3" count="1" starter="true"/>
+	<initial id="702001001"  name="M7"                     equip="3" count="1" starter="true"/>
+	<initial id="702023001"  name="Barefirst"              equip="3" count="1" starter="true"/>
+	<initial id="803007001"  name="K-400"                  equip="3" count="1" starter="true"/>
+	<initial id="904007002"  name="Smoke"                  equip="3" count="1" starter="true"/>
+	<initial id="1001001005" name="Red Bulls"              equip="3" count="1" starter="true"/>
+	<initial id="1001002006" name="Acid Pol"               equip="3" count="1" starter="true"/>
+	<initial id="1102003001" name="Capacete Básico"        equip="3" count="1" starter="true"/>
+	<initial id="1006003041" name="Raptor"                 equip="3" count="1" starter="true"/>
+	<initial id="1006003042" name="Sting"                  equip="3" count="1" starter="true"/>
+	<initial id="1006003043" name="Acid"                   equip="3" count="1" starter="true"/>
+
+	<initial id="100003221"  name="AK-47 SOPMOD Gold"      equip="1" count="86400" starter="false"/>
+	<initial id="200004161"  name="MP9 Ext. Gold"          equip="1" count="86400" starter="false"/>
+	<initial id="300005094"  name="SVU Gold"               equip="1" count="86400" starter="false"/>
+	<initial id="702001122"  name="Butterfly Knife"        equip="1" count="86400" starter="false"/>
+	<initial id="1300009007" name="Patente Falsa 7 dias"   equip="1" count="1"     starter="false"/>
+	<initial id="1300038030" name="Gold 100% 30 dias"      equip="1" count="1"     starter="false"/>
+	<initial id="1300037030" name="Exp 100% 30 dias"       equip="1" count="1"     starter="false"/>
+	<initial id="1301117000" name="10k de Gold"            equip="1" count="1"     starter="false"/>
+</list>

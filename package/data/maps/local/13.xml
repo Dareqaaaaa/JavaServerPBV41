@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list map="BB_LUXVILLE">
+	<int index="1" local="Base AZUL"/>
+	<int index="2" local="Corredor 2º Andar"/>
+	<int index="3" local="Corrimão 2º Andar"/>
+	<int index="4" local="Acesso corredor 2º Andar"/>
+	<int index="5" local="Ponto B"/>
+	<int index="6" local="Acesso B"/>
+	<int index="7" local="Bifurcação 2º Andar"/>
+	<int index="8" local="Escada 2º Andar"/>
+	<int index="9" local="Corredor estreiro"/>
+	<int index="10" local="Corredor A"/>
+	<int index="11" local="Ponto A"/>
+	<int index="12" local="Corredor largo"/>
+	<int index="13" local="Base vermelha"/>
+	<int index="14" local="Sala 1 vermelho"/>
+	<int index="15" local="Sala 2 vermelho"/>
+	<int index="16" local="Corredor vermelho"/>
+</list>

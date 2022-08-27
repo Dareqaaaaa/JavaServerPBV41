@@ -1,0 +1,40 @@
+/*
+ * Point Blank Emulador
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Authors: Henrique Rodrigues
+ * Copyright (C) 2016-2018
+ */
+
+package auth.network.protocol.auth.REQ;
+
+import core.models.*;
+import auth.network.protocol.auth.ACK.*;
+
+public class BASE_GET_CONFIG_REQ extends auth.network.protocol.AuthPacketREQ
+{
+	public BASE_GET_CONFIG_REQ(int opcode)
+	{
+		super(opcode);
+	}
+	@Override
+	public void readImpl()
+	{
+	}
+	@Override
+	public void runImpl()
+	{
+		Player p = client.player;
+		if (p != null)
+		{
+			sendPacket(new BASE_GET_URL_LIST_ACK());
+			sendPacket(new BASE_GET_MYBOX_ACK(p));
+			sendPacket(new BASE_GET_RANKINFO_ACK());
+			sendPacket(new BASE_GET_CONFIG_ACK(p, 0));
+		}
+	}
+}

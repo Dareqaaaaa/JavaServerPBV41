@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list id="2" enable="true" titulo="Logue e ganhe" checks="3" inicio="18/05/29 00:00" termino="18/06/29 00:00">
+	<item item_id="100003170" count="604800" equip="1" gift="103170"/> ;SCAR-L Carbine G. 7 dias
+	<gift time="1" gift1="103170" gift2="0" clear="false"/>
+	<gift time="2" gift1="103170" gift2="0" clear="false"/>
+	<gift time="3" gift1="103170" gift2="0" clear="true"/>
+	<gift time="4" gift1="0" gift2="0" clear="false"/>
+	<gift time="5" gift1="0" gift2="0" clear="false"/>
+	<gift time="6" gift1="0" gift2="0" clear="false"/>
+	<gift time="7" gift1="0" gift2="0" clear="false"/>
+	<gift time="8" gift1="0" gift2="0" clear="false"/>
+</list>

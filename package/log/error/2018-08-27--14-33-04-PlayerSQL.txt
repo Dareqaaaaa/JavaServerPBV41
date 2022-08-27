@@ -1,0 +1,2 @@
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (FATAL: password authentication failed for user "postgres") | [Ljava.lang.StackTraceElement;@48503868 | Cannot create PoolableConnectionFactory (FATAL: password authentication failed for user "postgres")
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (FATAL: password authentication failed for user "postgres") | [Ljava.lang.StackTraceElement;@184f6be2 | Cannot create PoolableConnectionFactory (FATAL: password authentication failed for user "postgres")

@@ -1,0 +1,72 @@
+/*
+ * PointBlank Java Server
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Authors: Henrique Rodrigues
+ * Copyright (C) 2015-2017
+ */
+
+package game.network.protocol.game.REQ;
+
+import core.enums.*;
+import core.models.*;
+import core.udp.UDP_Type;
+import game.network.protocol.game.ACK.*;
+
+public class BATTLE_STARTBATTLE_REQ extends game.network.protocol.GamePacketREQ
+{
+	public BATTLE_STARTBATTLE_REQ(int opcode)
+	{
+		super(opcode);
+	}
+	@Override
+	public void readImpl()
+	{
+	}
+	@Override
+	public void runImpl()
+	{
+		Room r = client.getRoom();
+		Player p = client.getPlayer();
+		if (p != null && r != null)
+		{
+			RoomSlot s = r.getSlotByPID(client.pId);
+			if (s != null && s.state == SlotState.PRESTART && r.rstate.ordinal() > 2)
+			{
+				if (r.special == 6 || r.special == 9)
+					sendPacket(new BATTLE_INFO_LEVEL_AI_ACK(r));
+				else
+				{
+					try
+					{
+						p.minutosJogados = date.getTimeHasPlay();
+					}
+					catch (Exception e)
+					{
+						p.minutosJogados = null;
+					}
+				}
+				sendPacket(new ROOM_CHANGE_ROOMINFO_ACK(r));
+				s.death = r.isGhostMode(p.espectador);
+				s.espectador = r.isGhostMode(p.espectador);
+				r.changeState(s, SlotState.BATTLE_READY, true);
+				if (conc.udp == UDP_Type.SERVER_UDP_STATE_RELAY)
+					r.start_battle();
+				else if (conc.udp == UDP_Type.SERVER_UDP_STATE_RENDEZVOUS)
+					s.battleAccept = true;
+			}
+		}
+	}
+}

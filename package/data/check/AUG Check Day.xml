@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list id="1" enable="true" titulo="AUG Check Day" checks="7" inicio="18/02/11 00:00" termino="18/02/19 00:00">
+	<item item_id="100003155" count="86400" equip="1" gift="103155"/> ;AUG A3 Brazuca 1D
+	<item item_id="100003111" count="86400" equip="1" gift="103111"/> ;AUG A3 BR Camo 1D
+	<item item_id="100003063" count="86400" equip="1" gift="103063"/> ;AUG A3 E-Sports 1D
+	<item item_id="100003183" count="86400" equip="1" gift="103183"/> ;AUG A3 GRS2 1D
+	<item item_id="100003147" count="86400" equip="1" gift="103147"/> ;AUG A3 Inferno 1D
+	<item item_id="100003184" count="86400" equip="1" gift="103184"/> ;AUG A3 Newborn 2015 1D
+	<item item_id="100003159" count="86400" equip="1" gift="103159"/> ;AUG A3 PBIC2014 1D
+	<gift time="1" gift1="103155" gift2="0" clear="true"/>
+	<gift time="2" gift1="103111" gift2="0" clear="true"/>
+	<gift time="3" gift1="103063" gift2="0" clear="true"/>
+	<gift time="4" gift1="103183" gift2="0" clear="true"/>
+	<gift time="5" gift1="103147" gift2="0" clear="true"/>
+	<gift time="6" gift1="103184" gift2="0" clear="true"/>
+	<gift time="7" gift1="103159" gift2="0" clear="true"/>
+	<gift time="8" gift1="0" gift2="0" clear="false"/>
+</list>

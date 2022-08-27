@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list map="TD_BURNINGHALL">
+	<int index="1" local="Último corredor 2° Andar"/>
+	<int index="2" local="Corredor central 2° Andar"/>
+	<int index="3" local="Hall Central 1° Andar"/>
+	<int index="4" local="Corredor central"/>
+	<int index="5" local="Base VERMELHO"/>
+	<int index="6" local="Pátio VERMELHO"/>
+	<int index="7" local="Escada 3° Andar VERMELHO"/>
+	<int index="8" local="Corredor 2° Andar VERMELHO"/>
+	<int index="9" local="Porta de acesso VERMELHO"/>
+	<int index="10" local="Corredor VERMELHO"/>
+	<int index="11" local="Corredor 2° Andar AZUL"/>
+	<int index="12" local="Escada 3° Andar AZUL"/>
+	<int index="13" local="Pátio AZUL"/>
+	<int index="14" local="Corredor AZUL"/>
+	<int index="15" local="Porta de acesso AZUL"/>
+	<int index="16" local="Base AZUL"/>
+	<int index="17" local="Escada de acesso AZUL"/>
+	<int index="18" local="Escada de acesso AZUL"/>
+</list>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="pointblank-auth"/>
+	<classpathentry kind="src" path="pointblank-core"/>
+	<classpathentry kind="src" path="pointblank-game"/>
+	<classpathentry kind="src" path="pointblank-test"/>
+	<classpathentry kind="src" path="pointblank-udp"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/myvps/Desktop/Java v41/package/jar/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/myvps/Desktop/Java v41/package/jar/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/myvps/Desktop/Java v41/package/jar/commons-email-1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/myvps/Desktop/Java v41/package/jar/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/myvps/Desktop/Java v41/package/jar/commons-pool-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/myvps/Desktop/Java v41/package/jar/enigma-all_en_US.jar"/>
+	<classpathentry kind="lib" path="C:/Users/myvps/Desktop/Java v41/package/jar/enigma-console.jar"/>
+	<classpathentry kind="lib" path="C:/Users/myvps/Desktop/Java v41/package/jar/enigma-i18n.jar"/>
+	<classpathentry kind="lib" path="C:/Users/myvps/Desktop/Java v41/package/jar/enigma-shell.jar"/>
+	<classpathentry kind="lib" path="C:/Users/myvps/Desktop/Java v41/package/jar/izpack-panel-5.0.0-beta11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/myvps/Desktop/Java v41/package/jar/jacob.jar"/>
+	<classpathentry kind="lib" path="C:/Users/myvps/Desktop/Java v41/package/jar/jconsole.jar"/>
+	<classpathentry kind="lib" path="C:/Users/myvps/Desktop/Java v41/package/jar/jna-platform.jar"/>
+	<classpathentry kind="lib" path="C:/Users/myvps/Desktop/Java v41/package/jar/mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/myvps/Desktop/Java v41/package/jar/netty-all-4.0.33.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/myvps/Desktop/Java v41/package/jar/postgresql-42.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/myvps/Desktop/Java v41/package/jar/tools.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
